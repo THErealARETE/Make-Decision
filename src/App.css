@@ -1,0 +1,17 @@
+.one {
+  text-align: center;
+  font:'inherit';
+  cursor:'pointer';
+  padding: '8px',
+ 
+}
+
+ /* 'hover':{
+    backgroundColor: 'coral',
+    color: 'black'
+  }*/
+
+  
+*{
+  color:rgb(57, 16, 122);
+}

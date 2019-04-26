@@ -1,0 +1,41 @@
+//big button
+.big-button{
+     background: $buttonBackground-color;
+     border: none;  
+    //buttom-border: .6rem solid darken($buttonBackground-color, 10%); 
+   color: #ffffff;
+   font-weight: bold;
+   font-size: $margin-space; 
+   width: 100%;
+   margin-bottom: 1.0rem;
+   padding: 2.4rem;
+}
+
+.big-button:disabled{
+    opacity: .5;
+}
+
+// small purple button 
+.button{
+    background: $buttonBackground-color;
+    border: none;
+    border-bottom: .3rem solid Darken($buttonBackground-color, 10%);   
+    color: white;
+    font-weight: 500;
+    padding: $s-size;
+}
+
+
+//BEM block melement modifier 
+.button--link{
+    background: none;
+    border:none;
+    color: rgba(255, 255, 255, 0.753);
+    padding: 0; 
+}
+
+@media(min-width: $desktopBreakpoint) {
+    .big-button{
+        margin-bottom: 2.8rem;
+    }
+}

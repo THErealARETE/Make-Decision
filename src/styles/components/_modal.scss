@@ -1,0 +1,44 @@
+//the idea here was to target the div in react modal portal
+.ReactModalPortal > div{
+    opacity:0;
+}
+
+// this one affects the content in the modal
+.ReactModalPortal .ReactModal__Overlay{
+    display:flex;
+    justify-content: center;
+     align-items: center;
+    transition: opacity 200ms ease-in-out;        
+}    
+
+
+// opacity when react modal is about to open 
+.ReactModalPortal .ReactModal__Overlay--after-open{
+    opacity: 1;
+}    
+
+//opacity when react modal is about to close 
+.ReactModalPortal .ReactModal__Overlay--before-close{
+    opacity: 0;
+}
+
+// modal css for how it looks 
+.modal{
+    background: $headerBackground-color;
+    color: white;
+    max-width: 30rem;
+    outline:none;
+    padding:4.0rem;
+    text-align: center; 
+}
+
+.modal__title{
+    margin:0 0 2.8rem 0;
+}
+
+.modal__body{
+    margin:0 0 4.8rem 0;
+    font-size:2.0rem;
+    font-weight: 300;
+    word-break:break-all;
+}

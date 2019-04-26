@@ -1,0 +1,35 @@
+//widget
+.widget{
+    background: $lightBlue;
+    margin-bottom: $margin-space;
+}
+
+// widget header
+.widget-header{
+    background: $widgetColor;
+    color: rgba(255, 255, 255, 0.733);
+    display: flex;
+    justify-content:space-between;
+    padding: $spacing;
+}
+
+.widget-header__title{
+    margin: 0;
+}
+
+//create a widget element selector 
+//color off white
+//margin:0;
+//large padding
+//centre the text-- text-align
+//bottom border to 1px and lightend version of light blue 10%
+ 
+
+
+.widget-addOptions__addOptions{
+    color:rgba(255, 255, 255, 0.637);
+    margin:0;
+    padding: 4.8rem;
+    text-align: center;
+    border-bottom: 1px solid liighten(10%); 
+}

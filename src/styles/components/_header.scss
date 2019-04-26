@@ -1,0 +1,23 @@
+.header{
+    background: $headerBackground-color ;
+    margin-bottom: 1.0rem;
+    padding: $spacing 0 ;
+    color: whitesmoke;
+}
+
+.header__title{
+    font-size:$size-of-font;
+    margin: 0;
+}
+
+.header__subtitle{
+    color: $headerSubtitle-color;
+    font-size: $spacing;
+    font-weight: 500;
+    margin: 0
+}
+@media (min-width: $desktopBreakpoint) {
+    .header{
+        margin-bottom: 2.8rem;
+    }
+}
