@@ -5,8 +5,6 @@ import Header from './Header';
 import Options from './Options';
 import OptionModal from './OptionModal';
 import 'normalize.css/normalize.css';
-//import Radium from 'radium';
-//import '../App.css'; 
 import '../styles/styles.scss';  
 
 
