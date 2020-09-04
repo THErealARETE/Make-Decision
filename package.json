@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "node-sass": "^4.9.3",
+    "node-sass": "^4.13.1",
     "normalize.css": "^8.0.0",
     "radium": "^0.25.0",
     "react": "^16.5.2",
